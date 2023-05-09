@@ -37,9 +37,11 @@ app.get("/cadastrar", function(req, resp){
 
 })
 
+
 app.get("/", function (req, resp){
     resp.render("cadastro")
 })
+
 
 var server = http.createServer(app);
 server.listen(80);
